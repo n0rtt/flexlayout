@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+hr {
+    background: rgb(82, 77, 77);
+    height: 3px;
+    margin-bottom: 1rem;
+}
+
+.main-header {
+    background: rgb(53, 49, 49);
+    color: #fff;
+    padding: 3rem;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 1 10%;
+    background: rgb(238, 105, 56);
+    color: #fff;
+    padding: 1.5rem 3rem;
+}
+
+.article {
+    padding: 3rem 6rem;
+    flex: 0 1 70%;
+    color: rgb(71, 65, 65);
+    margin: 0 auto;
+}
+
+.article p {
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+.main-footer {
+    background: rgb(192, 182, 182);
+    color: #fff;
+    padding: 3rem;
+}
